@@ -1,0 +1,54 @@
+#+STARTUP: showall hidestars
+# Quick readme on tips and tricks in working with emacs
+# Updated: April 28, 2020, Dariush Azimi
+control x 1 to go back to one windows
+control x 2, split horizontal
+control x 3, split vertical
+control x 0 to go to other windows
+
+: When you have 3 windows you can control x o to open numbered windows
+
+C-c left and right arrow to go back and forth on windows layout
+
+* Navigateing within emacs
+** 5- window 
+ibuffer
+
+** 6 - Search
+use try with spc spc and type try 
+M-x try
+pacakge name
+deskcribe package
+packagename
+next type package name like lorem epsum
+next type: descibe packae and package you just tried
+
+Now ctrl x ctrl e to run the elip line in that file 
+and use the key bindings to test it output: I did ctrl x control e and
+used the keyboard shortcut c-c lp to get the follwoing lorem text
+Next alt q to wrap the lines  and fill the paragraph
+
+use c-o to swtich between windows
+
+Search: alt s or c-s, keep hiting c-s to go next and c-r to go back
+c-s swiper , c-n and c-p to go back and forth
+yuo can also do c-s some word with space in the middle, works like a
+wild card.
+for example you can type c-s co set and will find it.
+ see swiper in init org file for more help
+
+  desacknhaon
+  
+** 7-Navigateing with Ivy
+M-s search by char
+M-w search by word
+** 8 - autocomplete
+
+don't know the command , C h k to describe keybinding, ie. C-h k ALT /
+i.e. type
+babagula
+birakula
+aribachi
+
+Now if you type the same word and alt / it will cycle throught the
+words.
