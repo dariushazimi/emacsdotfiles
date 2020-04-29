@@ -1,4 +1,7 @@
 #+STARTUP: showall hidestars
+
+Cc: Readme updated <azimid@gmail.com>
+
 # Quick readme on tips and tricks in working with emacs
 # Updated: April 28, 2020, Dariush Azimi
 control x 1 to go back to one windows
@@ -52,3 +55,5 @@ aribachi
 
 Now if you type the same word and alt / it will cycle throught the
 words.
+** Recent files
+Spc r opens recent files
